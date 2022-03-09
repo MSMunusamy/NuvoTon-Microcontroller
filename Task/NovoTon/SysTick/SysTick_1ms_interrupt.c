@@ -47,14 +47,6 @@ void SYS_Init(void)
 
 }
 
-/*
- * This is a template project for M031 series MCU. Users could based on this project to create their
- * own application without worry about the IAR/Keil project settings.
- *
- * This template application uses external crystal as HCLK source and configures UART0 to print out
- * "Hello World", users may need to do extra system configuration based on their system design.
- */
-
 int main(int PA_MODE)
 {
     SYS_Init();
@@ -72,5 +64,3 @@ int main(int PA_MODE)
     /* Got no where to go, just loop forever */
     while(1);
 }
-
-/*** (C) COPYRIGHT 2017 Nuvoton Technology Corp. ***/
