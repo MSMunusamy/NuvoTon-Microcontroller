@@ -1,3 +1,9 @@
+/**************************************************************************************
+ * NAME       : Munusamy M
+ * FILENAME   : Systick.c
+ * DESCRIPTION: Configure 1 Ms SysTick timer Interrupt
+ * DATE       : 16-02-2022
+***************************************************************************************/
 #include <stdio.h>
 #include "numicro.h"
 #include "Systick.h"
