@@ -50,7 +50,7 @@ void TIF(void)
 
 void TIMER0_Enable(void)
 {
-	  	TIMER0->CTL|=0x1<<27;      //OP mode
+	    TIMER0->CTL|=0x1<<27;      //OP mode
 	    TIMER0->CTL|=0x5;          //pre-scaler value
 	    TIMER0->CMP|=80000;        //Counter value for 10 Millisecond
 	    TIMER0->CTL|=0x1<<30;      //Counter start
